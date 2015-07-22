@@ -32,6 +32,9 @@ sudo usermod -aG docker $USER
 
 # Glipper (Ctrl-Alt-C)
 sudo apt-get -y install glipper
+
+# VirtualBox
+sudo apt-get -y install virtualbox 
 ```
 ## Software without Packages
-# Eclipse
+1. Eclipse
