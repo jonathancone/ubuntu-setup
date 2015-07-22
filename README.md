@@ -25,6 +25,10 @@ sudo apt-get -y install firefox
 $ wget -qO- https://get.docker.com/ | sh
 sudo usermod -aG docker $USER
 
+# Glipper (Ctrl-Alt-C)
+sudo apt-get -y install glipper
+
+
 # Eclipse - still no decent Debian packages for Eclipse
 
 
