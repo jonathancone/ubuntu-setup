@@ -1,8 +1,13 @@
-```
-# ubuntu-setup -- My Ubuntu Setup
+# My Ubuntu Setup
 
-# Disable search results in the dashboard
-# Settings -> Security -> Search -> Disable Search Results
+These are my notes for configuring a fresh Ubuntu image.
+
+## User Interface Configuration
+1. Settings -> Security -> Search -> Disable Search Results
+
+
+## Software with Packages
+```Shell
 
 # Sublime Text
 sudo add-apt-repository ppa:webupd8team/sublime-text-2
@@ -27,10 +32,6 @@ sudo usermod -aG docker $USER
 
 # Glipper (Ctrl-Alt-C)
 sudo apt-get -y install glipper
-
-
-# Eclipse - still no decent Debian packages for Eclipse
-
-
-
 ```
+## Software without Packages
+# Eclipse
