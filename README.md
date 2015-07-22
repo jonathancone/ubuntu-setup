@@ -1,6 +1,9 @@
 ```
 # ubuntu-setup -- My Ubuntu Setup
 
+# Disable search results in the dashboard
+# Settings -> Security -> Search -> Disable Search Results
+
 # Sublime Text
 sudo add-apt-repository ppa:webupd8team/sublime-text-2
 sudo apt-get -y update
