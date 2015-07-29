@@ -29,6 +29,7 @@ sudo apt-get -y install firefox
 # Docker
 $ wget -qO- https://get.docker.com/ | sh
 sudo usermod -aG docker $USER
+sudo service docker start
 
 # Glipper (Ctrl-Alt-C)
 sudo apt-get -y install glipper
@@ -36,5 +37,4 @@ sudo apt-get -y install glipper
 # VirtualBox
 sudo apt-get -y install virtualbox 
 ```
-## Software without Packages
-1. Eclipse
+
